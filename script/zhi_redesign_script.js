@@ -31,6 +31,11 @@ function showless() {
 }
 
 
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+
+
 
 // const node = document.getElementById("searchfb");
 // node.addEventListener("keydown", function(event) {
@@ -61,34 +66,34 @@ function submitted(){
   var year = document.getElementById("year").value.length>0;
   var month = document.getElementById("month").value.length>0;
   var day = document.getElementById("day").value.length>0;
+  var password = document.getElementById("password").value.length>0;
 
 
   
-  if (check1||check2||check3&&name1&&name2&&email&&year){
+  if (check1||check2||check3 && name1&&name2&&email&&year){
     if (yearval>2010 || yearval<1850){
       alert("invalid bday");
+      return false;
     } else{
-      clearall();
-      closereg();
-      location.href = "zhi_webdesign_index.html";
+      // clearall();
+      
     }
   } else{
     alert("please fill out all fields");
+    return false;
   }  
 }
 
-function clearall(){
-  document.getElementById("male").checked = false ;
-  document.getElementById("female").checked =false ;
-  document.getElementById("other").checked =false;
-  document.getElementById("fname").value = "";
-  document.getElementById("lname").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("year").value = "";
-  document.getElementById("year").value="";
-  document.getElementById("month").value="1";
-  document.getElementById("day").value="1";
+function submitlog(){
+  var lemail = document.getElementById("lemail").value.length>0;
+  var lpassword = document.getElementById("lpassword").value.length>0;
+  console.log(lemail);
+  if (!lemail || !lpassword){
+    alert("fill out all fields");
+    return false;
+  }
 }
+
 
 function closereg(){
   document.getElementById("container").style.display="none";
@@ -102,8 +107,4 @@ function showreg(){
   document.getElementById("html").style.backgroundColor="#a0b0b0";
   document.getElementById("logincontainer").style.opacity="0.2";
   document.getElementById("title").style.opacity="0.2";
-}
-
-function gotohome(){
-  location.href="zhi_webdesign_index.html";
 }
