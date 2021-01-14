@@ -121,3 +121,4 @@ function gotohome(){
   window.location="home.php";
   // console.log("campus.html");
 }
+

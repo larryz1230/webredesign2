@@ -1,3 +1,4 @@
+
 <?php
 	session_start();
 	if($_SESSION!=null) {
@@ -6,6 +7,7 @@
 	}
 
 ?>
+
 
 
 <!-- LOGIN -->
@@ -17,6 +19,7 @@
 <head>
 	<title>My Personal Webpage</title>
 	<link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-512/facebook-logo-2019-1597680-1350125.png">
+
 	<link rel="stylesheet" href="../css/register_style.css">
 	
 </head>
