@@ -1,5 +1,5 @@
 
 <?php
-header("Location: /html/zhi_webdesign_register.html");
+header("Location: /html/register.php");
 die();
 ?>

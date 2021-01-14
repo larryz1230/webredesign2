@@ -11,6 +11,8 @@ function showpop() {
 
 
 
+
+
 // shows more features on the left
 function showmore() {
   var x = document.getElementById("table");
@@ -19,6 +21,7 @@ function showmore() {
   x.style.display = "block";
   y.style.display="none";
   z.style.display="block";
+  console.log("done");
 }
 
 function showless() {
@@ -27,8 +30,13 @@ function showless() {
   var z = document.getElementById("close");
   x.style.display = "none";
   y.style.display = "block";
-  z.style.display = "none"
+  z.style.display = "none";
 }
+
+
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
 
 
 
@@ -61,34 +69,34 @@ function submitted(){
   var year = document.getElementById("year").value.length>0;
   var month = document.getElementById("month").value.length>0;
   var day = document.getElementById("day").value.length>0;
+  var password = document.getElementById("password").value.length>0;
 
 
   
-  if (check1||check2||check3&&name1&&name2&&email&&year){
+  if (check1||check2||check3 && name1&&name2&&email&&year){
     if (yearval>2010 || yearval<1850){
       alert("invalid bday");
+      return false;
     } else{
-      clearall();
-      closereg();
-      location.href = "zhi_webdesign_index.html";
+      // clearall();
+      
     }
   } else{
     alert("please fill out all fields");
+    return false;
   }  
 }
 
-function clearall(){
-  document.getElementById("male").checked = false ;
-  document.getElementById("female").checked =false ;
-  document.getElementById("other").checked =false;
-  document.getElementById("fname").value = "";
-  document.getElementById("lname").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("year").value = "";
-  document.getElementById("year").value="";
-  document.getElementById("month").value="1";
-  document.getElementById("day").value="1";
+function submitlog(){
+  var lemail = document.getElementById("lemail").value.length>0;
+  var lpassword = document.getElementById("lpassword").value.length>0;
+  console.log(lemail);
+  if (!lemail || !lpassword){
+    alert("fill out all fields");
+    return false;
+  }
 }
+
 
 function closereg(){
   document.getElementById("container").style.display="none";
@@ -104,6 +112,12 @@ function showreg(){
   document.getElementById("title").style.opacity="0.2";
 }
 
+function gotocampus(){
+  window.location="campus.html";
+  // console.log("campus.html");
+}
+
 function gotohome(){
-  location.href="zhi_webdesign_index.html";
+  window.location="home.php";
+  // console.log("campus.html");
 }
