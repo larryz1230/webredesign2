@@ -645,8 +645,36 @@ hr {
   left: 50%;
    /*bring your own prefixes */
   transform: translate(-50%, -50%);
-  height: 450px;
+  height: 400px;
   width: 600px;
+  z-index: 900;
 
   /*border: 1px solid black;*/
+}
+
+.enter{
+	position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(1%, -50%);
+  height: 370px;
+  width: 570px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
+.enter input[type=text]{
+	height: 50px;
+	width: 98%;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.enter input[type=submit]{
+	height: 50px;
+	width: 30%;
+	float: right;
+	border-radius: 10px;
 }
