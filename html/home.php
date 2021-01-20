@@ -192,7 +192,7 @@
 			<div class="toppost">
 				<img src="../images/profilepicimg.png" width="40px" height="40px">
 				<div class="postheader">
-					<p>Larry Zhi -> Web Design Memes</p>
+					<p>Larry Zhi -> Web Design Posts</p>
 					<p class="timestamp">1 hr 9 min ago</p>
 				</div>
 			</div>
@@ -239,7 +239,7 @@
 			<div class="toppost">
 				<img src="../images/profilepicimg.png" width="40px" height="40px">
 				<div class="postheader">
-					<p>Larry Zhi -> Web Design Memes</p>
+					<p>Larry Zhi -> Web Design Posts</p>
 					<p class="timestamp">1 hr 9 min ago</p>
 				</div>
 			</div>

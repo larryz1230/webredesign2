@@ -15,11 +15,32 @@
   /*border: 1px solid black;*/
   margin-top: 20px;
   margin-bottom: 10px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   height: 150px;
-  width: 90%;
+  width: 80%;
   border-radius: 10px;
+  background-color: white;
 }
+
+.vert{
+  margin-left: 20px;
+  /*border: 1px solid black;*/  
+  width: 75%;
+}
+
+.buttondiv{
+  float: right;
+  height: 100%;
+  width: 10%;
+  /*border: 1px solid black;*/
+  margin-right: 0px;
+/*  right: 0px;
+  position: absolute;*/
+}
+.buttondiv button{
+  /*border-radius: 10px;*/
+}
+
 
 /* Create four equal columns that sits next to each other */
 .column {
