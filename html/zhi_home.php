@@ -368,7 +368,7 @@
 <img src="../images/menu.png" id="menu" onclick="showmore()">
 
 <p id="privacy" style="font-size: 12px; font-weight: 200;"><a href = "https://www.facebook.com/privacy/explanation">Privacy</a>  · <a href = "https://www.facebook.com/policies?ref=pf">Terms</a>  · <a href = "https://www.facebook.com/business/small-business">Advertising</a>  · <a href = "https://www.facebook.com/help/568137493302217">Ad Choices</a>   · <a href = "https://www.facebook.com/policies/cookies">Cookies</a>  ·  Facebook © 2021
- We definitely do not steal your data :)) <br><br> Designer: Larry Zhi <br> Published: 01/19/2021 <br> Contact: <a href="mailto:larryzhi1230@gmail.com">larryzhi1230@gmail.com</a>
+ We definitely do not steal your data :)) <br><br> Designer: Larry Zhi <br> Published: 01/19/2021 <br> Contact: <a href="mailto:larryzhi1230@gmail.com">larryzhi1230@gmail.com</a> <br> <a href="../biblio/zhi_redesign_biblio.html">Bibliography</a>
 </p>
 
 
