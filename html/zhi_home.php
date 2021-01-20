@@ -4,7 +4,7 @@
 <?php
 	session_start();
 	if($_SESSION["id"]==null) {
-    	header('Location: zhi_register.php');
+    	header('Location: zhi_index.php');
 
 	}
 
@@ -55,19 +55,19 @@
 			
 			
 			<div class="tooltip">
-				<img src="../images/add.png" width="40px" height="40px">
+				<img src="../images/add.png" width="40px" height="40px" alt="Create">
 				<span class="tooltiptext">Create</span>
 			</div>	
 			<div class="tooltip">
-				<img src="../images/messageicon.png" width="40px" height="40px">
+				<img src="../images/messageicon.png" width="40px" height="40px" alt="Messages">
 				<span class="tooltiptext">Messaging</span>
 			</div>	
 			<div class="tooltip">
-				<img src="../images/notif.png" width="40px" height="40px">
+				<img src="../images/notif.png" width="40px" height="40px" alt="Notifications">
 				<span class="tooltiptext">Notifications</span>
 			</div>	
 			<div class="tooltip">
-				<img src="../images/trinagle.png" width="40px" height="40px" onclick="showpop()">
+				<img src="../images/trinagle.png" width="40px" height="40px" onclick="showpop()" alt="Account">
 				<span class="tooltiptext">Account</span>
 			</div>			
 		</div>
@@ -78,7 +78,7 @@
 
 	<div class="popout" id= "popout">
 		<div class="popouticons">
-			<img id="profilepic"style="float: left;" src="../images/profilepicimg.png" width="55px" height="55px">
+			<img id="profilepic"style="float: left;" src="../images/profilepicimg.png" width="55px" height="55px" alt="profilepic">
 			<div class= "description">
 				<p id="nametag"><b>Larry Zhi</b></p>
 				<a href="https://www.facebook.com/larry.zhi.58/" target="blank">See Your Profile</a>
@@ -141,11 +141,11 @@
 	<div class = "midcontainer">
 
 		<div class = "stories">
-			<img src="../images/dandy.jpg" width="130px" height=250px">
-			<img src="../images/jelly.jpg" width="130px" height=250px">
-			<img src="../images/light.jpg" width="130px" height=250px">
-			<img src="../images/canyon.jpg" width="130px" height=250px">
-			<img src="../images/camp.jpg" width="130px" height=250px">
+			<img src="../images/dandy.jpg" width="130px" height=250px" alt="Dandelion">
+			<img src="../images/jelly.jpg" width="130px" height=250px" alt="Jellyfish">
+			<img src="../images/light.jpg" width="130px" height=250px" alt="Light">
+			<img src="../images/canyon.jpg" width="130px" height=250px" alt="Canyon">
+			<img src="../images/camp.jpg" width="130px" height=250px" alt="Science Camp">
 		</div>
 
 
@@ -200,7 +200,7 @@
 					<p class="timestamp">1 hr 9 min ago</p>
 				</div>
 			</div>
-			<img class="postcontent" src="../images/canyonland.jpg" width="100%">	
+			<img class="postcontent" src="../images/canyonland.jpg" width="100%" alt="Canyon ">	
 			<p>Likes: 39</p>
 			<hr>
 			<div class="likecomment">
@@ -247,7 +247,7 @@
 					<p class="timestamp">1 hr 9 min ago</p>
 				</div>
 			</div>
-			<img class="postcontent" src="../images/sushi.jpg" width="100%">	
+			<img class="postcontent" src="../images/sushi.jpg" width="100%" alt="Sushi">	
 			<p>Likes: 39</p>
 			<hr>
 			<div class="likecomment">

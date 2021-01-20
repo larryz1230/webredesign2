@@ -7,5 +7,5 @@ session_unset();
 // destroy the session
 session_destroy();
 
-header('Location: zhi_register.php');
+header('Location: zhi_index.php');
 ?>

@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         	console_log("wrong password");
             
-            header('Location: zhi_register.php');
+            header('Location: zhi_index.php');
             echo '<p>"Wrong credentials")</p>';
             // $result['success'] = "0";
             // $result['message'] = "error";
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     } else {
     	echo '<script>alert("Wrong credentials")</script>';
-            header('Location: zhi_register.php');
+            header('Location: zhi_index.php');
     }
   
 }
