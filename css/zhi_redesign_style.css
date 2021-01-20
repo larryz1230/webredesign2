@@ -95,10 +95,10 @@ body{
 .righticonbuttons{
 	display: inline-block;
 	right: 0px;
-	top: 0px;
+	top: 2px;
 	position: fixed;
 	margin-right: 15px;
-	padding-top: 5px;
+	padding-top:5px;
 	align: left;
 }
 
@@ -189,7 +189,12 @@ body{
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-
+/*
+.textboz{
+	height: 100px;
+	width: 100%;
+	back
+}*/
 
 /*CONTENT*/
 

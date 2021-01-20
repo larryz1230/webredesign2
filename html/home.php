@@ -51,19 +51,19 @@
 			
 			
 			<div class="tooltip">
-				<img src="../images/add.png" width="45px" height="45px">
+				<img src="../images/add.png" width="40px" height="40px">
 				<span class="tooltiptext">Create</span>
 			</div>	
 			<div class="tooltip">
-				<img src="../images/messageicon.png" width="45px" height="45px">
+				<img src="../images/messageicon.png" width="40px" height="40px">
 				<span class="tooltiptext">Messaging</span>
 			</div>	
 			<div class="tooltip">
-				<img src="../images/notif.png" width="45px" height="45px">
+				<img src="../images/notif.png" width="40px" height="40px">
 				<span class="tooltiptext">Notifications</span>
 			</div>	
 			<div class="tooltip">
-				<img src="../images/trinagle.png" width="45px" height="45px" onclick="showpop()">
+				<img src="../images/trinagle.png" width="40px" height="40px" onclick="showpop()">
 				<span class="tooltiptext">Account</span>
 			</div>			
 		</div>
@@ -97,10 +97,10 @@
 			</div>
 		</div>
 		<div class="horizontal">
-			<div class="vertically">
-				<p>Friends</p>
+			<div class="vertically" onclick="gotopages()">
+				<p>Your Pages </p>
 			</div>
-			<div class="vertically">
+			<div class="vertically" onclick="gotogames()">
 				<p>Games</p>
 			</div>
 		</div>
@@ -114,7 +114,7 @@
 		</div>
 		<div class="horizontal">
 			<div class="vertically">
-				<p>Your Pages</p>
+				<p>Friends</p>
 			</div>
 			<div class="vertically">
 				<p>Rooms</p>
@@ -137,11 +137,11 @@
 	<div class = "midcontainer">
 
 		<div class = "stories">
-			<img src="https://ipt.imgix.net/201447/x/0/how-and-why-you-should-shoot-vertical-landscape-photos-6.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=1300" width="130px" height=250px">
-			<img src="https://static.photocdn.pt/images/articles/2018/05/07/articles/2017_8/landscape_photography_tips.jpg" width="130px" height=250px">	
-			<img src="https://images.unsplash.com/photo-1444041103143-1d0586b9c0b8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" width="130px" height=250px">
-			<img src="https://danbaileyphoto.com/blog/wp-content/uploads/2018/03/AK-NATWT-ANC-05061-e1520967426417.jpg" width="130px" height=250px">
-			<img src="https://ipt.imgix.net/201446/x/0/how-and-why-you-should-shoot-vertical-landscape-photos-7.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=1300" width="130px" height=250px">
+			<img src="../images/dandy.jpg" width="130px" height=250px">
+			<img src="../images/jelly.jpg" width="130px" height=250px">
+			<img src="../images/light.jpg" width="130px" height=250px">
+			<img src="../images/canyon.jpg" width="130px" height=250px">
+			<img src="../images/camp.jpg" width="130px" height=250px">
 		</div>
 
 
@@ -196,7 +196,7 @@
 					<p class="timestamp">1 hr 9 min ago</p>
 				</div>
 			</div>
-			<img class="postcontent" src="https://www.siliconrepublic.com/wp-content/uploads/2014/12/img/web-designer-meme-2.jpg" width="100%">	
+			<img class="postcontent" src="../images/canyonland.jpg" width="100%">	
 			<p>Likes: 39</p>
 			<hr>
 			<div class="likecomment">
@@ -243,7 +243,7 @@
 					<p class="timestamp">1 hr 9 min ago</p>
 				</div>
 			</div>
-			<img class="postcontent" src="https://www.siliconrepublic.com/wp-content/uploads/2014/12/img/web-designer-meme-2.jpg" width="100%">	
+			<img class="postcontent" src="../images/sushi.jpg" width="100%">	
 			<p>Likes: 39</p>
 			<hr>
 			<div class="likecomment">

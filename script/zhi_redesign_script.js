@@ -122,3 +122,13 @@ function gotohome(){
   // console.log("campus.html");
 }
 
+function gotogames(){
+  window.location="games.html";
+  // console.log("campus.html");
+}
+
+function gotopages(){
+  window.location="pages.html";
+  // console.log("campus.html");
+}
+
