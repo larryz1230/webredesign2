@@ -9,7 +9,7 @@ function unblur(){
 }
 
 function gotohome(){
-  window.location="home.php"
+  window.location="zhi_home.php"
   // console.log("campus.html");
   console.log("hello");
 }

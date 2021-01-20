@@ -113,22 +113,22 @@ function showreg(){
 }
 
 function gotocampus(){
-  window.location="campus.html";
+  window.location="zhi_campus.html";
   // console.log("campus.html");
 }
 
 function gotohome(){
-  window.location="home.php";
+  window.location="zhi_home.php";
   // console.log("campus.html");
 }
 
 function gotogames(){
-  window.location="games.html";
+  window.location="zhi_games.html";
   // console.log("campus.html");
 }
 
 function gotopages(){
-  window.location="pages.html";
+  window.location="zhi_pages.html";
   // console.log("campus.html");
 }
 

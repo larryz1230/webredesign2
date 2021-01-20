@@ -2,7 +2,7 @@
 <?php
 	session_start();
 	if($_SESSION!=null) {
-    	header('Location: home.php');
+    	header('Location: zhi_home.php');
     	console_log("PENIA");
 	}
 
@@ -20,7 +20,11 @@
 	<title>My Personal Webpage</title>
 	<link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-512/facebook-logo-2019-1597680-1350125.png">
 
-	<link rel="stylesheet" href="../css/register_style.css">
+	<link rel="stylesheet" href="../css/zhi_register_style.css">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+	</style>
 	
 </head>
 <body>

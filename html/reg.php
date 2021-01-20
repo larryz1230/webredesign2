@@ -47,7 +47,7 @@ else if ($radioVal=="f"){
       console_log("ALREADY EXISTS");
       echo'<script language="javascript">
         alert("Wrong Username or Password");
-        location.href = "register.php";
+        location.href = "zhi_register.php";
       </script>';
     }
 
@@ -63,7 +63,7 @@ else if ($radioVal=="f"){
     // echo json_encode($result);
     echo'<script language="javascript">
         alert("You have succesfully registered");
-        location.href = "register.php";
+        location.href = "zhi_register.php";
       </script>';
 
     mysqli_close($conn);

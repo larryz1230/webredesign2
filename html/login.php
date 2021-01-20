@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['bday'] = $row['bday'];
 
            
-            header('Location: home.php');
+            header('Location: zhi_home.php');
 			exit;	
 
             // array_push($result['login'], $index);
@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         	console_log("wrong password");
             
-            header('Location: register.php');
+            header('Location: zhi_register.php');
             echo '<p>"Wrong credentials")</p>';
             // $result['success'] = "0";
             // $result['message'] = "error";
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     } else {
     	echo '<script>alert("Wrong credentials")</script>';
-            header('Location: register.php');
+            header('Location: zhi_register.php');
     }
   
 }
